@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2020/8/5
  */
 @RestController
-public class WSUser {
+public class TestController {
 
     @Autowired
     private EslMapper eslMapper;

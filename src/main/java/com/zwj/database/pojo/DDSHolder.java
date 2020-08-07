@@ -10,9 +10,10 @@ import com.zwj.database.task.ClearIdleTimerTask;
 import com.zwj.database.task.DDSTimer;
 import org.apache.tomcat.jdbc.pool.DataSource;
 /**
- * @author zwj
- * @version 1.0
- * @date 2020/8/5
+ * 动态数据源管理器。
+ *
+ * @author elon
+ * @version 2018年2月25日
  */
 public class DDSHolder {
     /**
