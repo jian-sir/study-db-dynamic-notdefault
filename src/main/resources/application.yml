@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://%s:%s/%s?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+      username:
+      password:
+server-db:
+  driver: com.mysql.cj.jdbc.Driver
+  ip: 127.0.0.1
+  port: 3306
+  table: test2
+  username: root
+  password: root
